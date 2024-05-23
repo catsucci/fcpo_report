@@ -1,0 +1,109 @@
+\chapter{Conception et développement de l’application}
+\label{chap:Chapter 3 title}
+\section*{Introduction}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
+
+\newpage
+
+
+\section{Description du flux de Chatbot}
+
+\hspace{16pt}Le flux de l'application du chatbot pour la maison médicale se déroule en plusieurs étapes clés, organisées pour optimiser l'expérience utilisateur:
+
+\subsection{FAQ}
+
+\hspace{16pt}Le chatbot propose à l'utilisateur des sujets prédéfinis sur lesquels il pourrait vouloir en savoir plus, et lors de la sélection d'un, le chatbot répond avec une réponse prédéfinie.
+
+
+\subsection{Prise de rendez-vous}
+
+\hspace{16pt}Le chatbot guide l'utilisateur avec un flux prédéfini dans ce cas, depuis la demande d'informations de base sur l'utilisateur jusqu'aux opérations facultatives telles que répondre à des questions spécialisées ou joindre des documents, avec une validation intégrée pour chaque petite information que nous lui demandons de fournir (si la validation est possible dans le premier lieu).
+
+
+\section{Explication des choix technologiques}
+
+\hspace{16pt}Pour les technologies, nous n'avions pas beaucoup de choix, on nous proposait de travailler soit avec Django de Python, soit avec React (Front-end) et Symfony* (Back-end).
+
+\subsection{React}
+
+
+\subsubsection{Interface Utilisateur Réactive et Performante}
+
+\begin{itemize}
+  \item \textbf{DOM Virtuel: }React utilise un DOM virtuel pour des mises à jour rapides et efficaces de l'interface utilisateur, garantissant une expérience utilisateur fluide et sans latence.
+  \item \textbf{Rendu Dynamique: }Les capacités de rendu dynamique de React permettent de gérer efficacement les interactions en temps réel, cruciales pour un chatbot.
+\end{itemize}
+
+\subsubsection{Composants Réutilisables et Modulaire}
+
+\begin{itemize}
+  \item \textbf{Composants: }La structure basée sur les composants de React facilite la création de widgets et de modules réutilisables pour différentes parties du chatbot, comme les fenêtres de conversation, les formulaires de saisie, et les notifications.
+  \item \textbf{Modularité: }Permet de construire l'application de manière modulaire, rendant le code plus maintenable et évolutif.
+\end{itemize}
+
+\subsubsection{Intégration Facile avec les APIs}
+
+\begin{itemize}
+  \item \textbf{Hooks: }Les hooks de React, comme useEffect et useState, simplifient les appels API et la gestion des états, permettant une intégration fluide avec les services backend du chatbot.
+  \item \textbf{Interopérabilité: }React facilite l'intégration avec des APIs RESTful ou GraphQL, nécessaires pour les fonctionnalités de traitement du langage naturel (NLP) et la gestion des dialogues.
+\end{itemize}
+
+\subsubsection{Écosystème et Communauté}
+
+\begin{itemize}
+  \item \textbf{Support et Documentation: }La vaste communauté de React et sa documentation exhaustive offrent un soutien continu et des ressources abondantes pour résoudre les problèmes et optimiser le développement.
+  \item \textbf{Outils et Bibliothèques: }Un large éventail de bibliothèques et d'outils complémentaires, tels que les bibliothèques de calendriers et même la bibliothèque de chatbots avec laquelle nous avons travaillé.
+\end{itemize}
+
+
+\subsection{Symfony}
+
+
+\subsubsection{Framework PHP Puissant}
+
+\begin{itemize}
+  \item Symfony est un framework PHP mature et puissant, offrant une structure solide et bien organisée pour le développement d'applications web complexes telles que le chatbot médical. Sa stabilité et sa maturité en font un choix fiable pour la création d'un back-end robuste.
+\end{itemize}
+
+\subsubsection{Gestion de l'API avec API Platform}
+
+\begin{itemize}
+  \item Symfony offre une intégration transparente avec API Platform, une solution robuste pour la création et la gestion d'API RESTful. En configurant l'API avec Symfony et API Platform, nous bénéficions d'une documentation automatique, d'une gestion avancée des opérations CRUD, et d'une sérialisation/désérialisation automatique des données.
+\end{itemize}
+
+\subsubsection{Sécurité Renforcée}
+
+\begin{itemize}
+  \item Symfony intègre des fonctionnalités avancées de sécurité, telles que la protection contre les attaques CSRF, XSS et SQL injection. Cela garantit un niveau élevé de sécurité pour les données sensibles des utilisateurs du chatbot médical, ce qui est essentiel dans le domaine médical.
+\end{itemize}
+
+
+\section{Diagrammes de conception utilisés}
+
+\hspace{16pt}Dans le cadre du développement du chatbot pour la maison médicale, nous avons créé un Modèle Conceptuel de Données (MCD) pour concevoir la structure de la base de données. Le MCD ci-dessous illustre les principales entités et leurs relations dans notre système.\\
+
+Ce MCD représente les principales entités de notre base de données pour le chatbot médical. Voici une brève explication de chaque entité :
+
+
+\begin{itemize}
+  \item \textbf{Utilisateur: }Stocke les informations sur les utilisateurs du chatbot, telles que leur identifiant, leur nom et leurs informations de contact.
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+  \item \textbf{ }
+\end{itemize}
+
+
+
+\newpage
+
+\section*{Conclusion}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
+
+\pagebreak

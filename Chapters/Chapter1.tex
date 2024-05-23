@@ -1,0 +1,421 @@
+\chapter{General Project Context}
+\label{chap:General Project Context}
+
+% "*" makes the section unnumbered
+
+\section*{Introduction}
+
+Use this template as you wish, change what you want to change, the section titles are only examples, you don't have to follow them to the letter.
+
+
+This is an example of me citing the 1st reference in the bibliography at the end of this report \cite{ref1}. Use it well!
+
+The next section contains the README text that's also found in the left part along with the other files.
+
+
+\newpage
+
+\section{READ\_ME}
+
+Hi! 
+
+This template is a combination of multiple student and teacher PFE report templates that I have compiled into one that hopefully will satisfy your needs.
+\\
+
+It is in English, but I have included the french "Page de garde" if you want to use it, and the rest of the paper is easily translatable.
+\\
+
+This document is compiled using pdfLatex Compiler, so make sure you select it in the menu on the top left of the page. You can change the font size there along with other things.
+\\
+
+Some table, figure, list or formatting codes can be found in the "Codes\_needed.tex" file in this same folder, use them well.
+\\
+
+The organisation of this template is as follows: 
+\\
+The main compilation file is main.tex, any file you want to add, should be added there using, %\input{Chapters/Chapter1} for example. 
+
+Remember to change the PDF Title and author name before the begin document command.
+\\
+
+Packages.tex is where you import packages and could modify their options.
+\\
+
+The frontmatter folder contains unnumbered chapters that come before the actual chapters, so the resumes and acknowledgments are there. The pages are numbered in Roman numbers.
+\\
+
+The chapters folder obviously contains the main chapters of the report, usually the first one is an intro, of both the project and the company, the last one is a conclusion chapter, I made it unnumbered here but you do you.
+\\
+
+The endmatter folder contains the appendices, acronyms, glossary, and Complementary figures, tables and codes. Consider checking this link \url{https://libguides.usc.edu/writingguide/appendices} for more info. Usually you add an appendix for each subject you'll talk about it, each with its own codes, tables, figures and text.
+\\
+
+The bibliography can be found at the end of main.tex file.
+\\
+
+And to organise your figures better, upload the logos to the logos folder, and content related figures should go in the figures folder, where you can add sub folders.
+\\
+
+Along the template, make sure to read my comments, they can be helpful to understand the purpose of a command or option. 
+\\
+
+When you finish writing your thesis, make sure to verify that you didn't leave any generic line or link. Revise it well.
+\\
+
+There are 10 warnings that show up in this template, some I couldn't manage to solve (or understand), and some I left since they are necessary for what I intend of this template.
+\\
+
+Obviously this template is only a suggestion, it is not perfect in any sense, you can improve it in the way that suits you, so search away, and get used to reading the documentation.
+\\
+
+Also consult with your supervisor, as each teacher has their own opinion on what constitutes the ideal report.
+\\
+
+Finally, I hope you have enjoyed your time at INPT as much as I did, and Good Luck :D
+\\
+
+-Mery
+
+
+\subsection{Codes\_Needed}
+
+This subsection includes codes for different elements you will need: figures, tables, lists...
+
+Copy the codes you want and test them in the chapter files.
+
+if you want symbols and other text styles, visit this link: 
+
+\href{https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf}{Symbols}
+
+Read the comments !!
+
+% Content division
+
+%\chapter{Comes first}, then \section{}, then \subsection{}, then \subsubsection{}.
+
+\subsubsection{Text formatting}
+
+\textbf{This text is bold}
+
+\textit{This text is italic}
+
+\underline{This text is underlined.}
+
+\st{This text is struck out.}
+
+\textsc{This text is capitalized.}
+
+%Use \paragraph{To start a paragraph}
+
+
+Some characters like "\%", "\$" and "\&" are significant in Latex code, so to include them in normal text, use the backslash character before them.
+To print out backslash, use \symbol{92}
+
+
+Documentation: \href{https://www.overleaf.com/learn/latex/Bold%2C_italics_and_underlining}{Italics and underlining}
+
+
+\subsubsection{Figures} 
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=4cm]{Logos/Logo_INPT.png}
+    \caption{Caption}
+    \label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+\end{figure}
+
+%[width=7cm] you control the size of the image. other options include: 
+%[height=7cm] or [scale=0.5] (means half the size of the original image)
+
+
+Documentation: \href{https://www.overleaf.com/learn/latex/Inserting_Images}{Images}
+
+
+\subsubsection{Tables} 
+
+Simple table without borders:
+\\
+
+\begin{tabular}{ll}
+  First & Second \\
+  Third & Fourth
+\end{tabular}
+\\
+
+More complex table with borders:
+\\
+
+\begin{tabular}{|l|c|r|} \hline
+  Left aligned column & Centered column & Right aligned column \\ \hline
+  Text & Text & Text \\ \hline
+\end{tabular}
+\\
+
+Example of a short table
+
+%{5cm} is the cell length, you can change it to suit your own table
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|m{5cm}|m{10cm}|}
+        \hline
+          Column1 & Column2 \\
+        \hline
+          Element11 & Element21 \\
+        \hline
+          Element12 & Element22 \\
+        \hline
+          Element13 & Element23 \\
+        \hline
+    \end{tabular}
+    \caption{Table Example}
+\end{table}
+
+
+Example of a long table (that spans 2 pages or more), Latex will automatically split the table when it reaches the end of the page:
+
+\begin{longtable}[c]{| m{4.4cm} | m{11cm} |}
+\caption{Long table}\\
+ \hline
+
+ Cell & Description  \\ 
+ \hline
+ \endfirsthead
+
+ \hline
+ 
+ Cell & Description  \\ 
+ \hline
+ \endhead
+
+        \hline
+          Element11 & Element21 \\
+        \hline
+          Element12 & Element22 \\
+        \hline
+          Element13 & Element23 \\
+        \hline
+          Element14 & Element24 \\
+        \hline
+          Element15 & Element25 \\
+        \hline
+          Element16 & Element26 \\
+        \hline
+          Element17 & Element27 \\
+        \hline
+          Element18 & Element28 \\
+        \hline
+          Element19 & Element29 \\
+        \hline
+          Element110 & Element210 \\
+        \hline
+          Element111 & Element211 \\
+        \hline
+          Element112 & Element212 \\
+        \hline
+          Element113 & Element213 \\
+        \hline
+          Element114 & Element214 \\
+        \hline
+
+ \end{longtable}
+
+
+Documentation: \href{https://www.overleaf.com/learn/latex/Tables}{Tables}
+
+
+\subsubsection{Lists}
+
+To start an unnumbered list, use:
+
+\begin{itemize}
+    \item 
+    \item 
+    \item 
+\end{itemize}
+
+To start a numbered list, use:
+
+\begin{enumerate}
+    \item 
+    \item 
+    \item 
+\end{enumerate}
+
+
+
+Documentation: \href{https://www.overleaf.com/learn/latex/Lists}{Lists}
+
+
+\subsubsection{Code scripts or terminal}
+
+Say you have a script or terminal command you want to include, you use the following code:
+
+    \lstset{style=mystyle} %this style is already defined in Packages.tex
+    
+    \begin{lstlisting}[language=bash, caption= Code caption]
+    
+    root@eve-ng:~# mkdir -p /opt/unetlab/addons/qemu/timos-20.10.R12
+
+    \end{lstlisting}
+
+
+Documentation: \href{https://www.overleaf.com/learn/latex/Code_listing}{Code Listing}
+
+\subsubsection{Math}
+
+Some math formulas for you, test them in your chapters:
+
+These are inline formulas: $x$, $a_i^2 + b_i^2 \le a_{i+1}^2$. Afterwards...
+
+These are centered formulas: $$x,$$ $$a_i^2 + b_i^2 \le a_{i+1}^2.$$ Afterwards...
+
+Some complex formula: $$P(|S - E[S]| \ge t) \le 2 \exp \left( -\frac{2 t^2 n^2}{\sum_{i = 1}^n (b_i - a_i)^2} \right).$$
+
+Also you can use the first link for math symbols and other useful stuff:
+
+Documentation: \href{https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf}{Symbols file again}
+
+
+
+\newpage
+
+
+\section{Présentation de l’entreprise FCPO}
+
+
+
+\subsection{L’agence digitale FCPO}
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[width=7cm]{Logos/fcpo.png}
+    \caption{FCPO logo}
+    %\label{fig:my_label} %Optional (If you want to reference the figure in later chapters)
+\end{figure}
+
+\hspace{16pt}Créée en 2013, l'agence FCPO est une entreprise de marketing digital qui
+accompagne les entreprises dans leurs stratégies web et marketing digital.
+
+\vspace{12pt}
+L’agence digitale FCPO accompagne les entreprises, les professionnels et les
+blogueurs à mettre en place une stratégie digitale autour d’un site web. FCPO
+travaille sur des projets de création de sites web, community management,
+référencement naturel et payant, gestion des contenus, mise en place des
+stratégies d’inbound marketing et marketing digital etc.
+
+\vspace{12pt}
+FCPO travaille avec des partenaires au niveau national et international
+(Maroc, Afrique du Nord, France, Belgique, Pays-Bas).
+
+\vspace{12pt}
+Son équipe est composée d'experts dans ce domaine. FCPO garantit un haut
+niveau de qualité, mais assure également une production en grande quantité
+de sites Web.
+
+\vspace{12pt}
+Le développement de l'entreprise se fait par étapes solides basées sur la
+connaissance et l'expertise.
+
+\vspace{12pt}
+Toujours à la recherche des meilleures méthodes
+pour améliorer l’efficacité de ses réalisations, ses équipes souhaitent proposer
+des services exclusifs avec un très haut niveau de qualité. La fiabilité de ses
+services lui permet d'offrir des solutions efficaces et pérennes, sans
+risque de pénalité. À savoir que les commandes sont traitées sous 24H maximum.\\ \\ \\
+
+\subsection{Les Services Proposés}
+
+\begin{itemize}
+  \item \textbf{Création site Internet: }Site web clé en main moderne et haut de gamme.
+  \item \textbf{Référencement Naturel – SEO: }Site web bien optimisé au SEO et disponible sur la 1ère page du moteur de recherche Google.
+  \item \textbf{Création site E-Commerce: }Sites performants et ergonomiques, à l'esth-étique soignée, pour une expérience utilisateur unique.
+  \item \textbf{Publicité sur Internet: }Booster l'image de marque de votre entreprise sur internet et sur les réseaux sociaux.
+  \item \textbf{Application mobile: }Expertise et innovation dans le développement des applications mobile.
+  \item \textbf{Rédaction de contenu: }La prise en charge de la rédaction du contenu des site web.
+
+\end{itemize}
+
+
+
+
+
+
+\section{Présentation du projet}
+
+
+\subsection{Contexte du projet}
+
+\hspace{16pt}Dans le cadre de mon stage au sein de l'entreprise FCPO, j'ai participé à un projet visant à développer un chatbot pour une maison médicale. Ce chatbot est destiné à assister les patients en répondant aux questions fréquentes (FAQ) et en facilitant la prise de rendez-vous. Le projet a été réalisé en collaboration avec une équipe de stagiaires comme moi.\\
+
+Les maisons médicales reçoivent quotidiennement un grand nombre de questions répétitives de la part des patients, ainsi que des demandes de prise de rendez-vous. Cela mobilise une partie significative du temps du personnel administratif, qui pourrait être mieux utilisé pour des tâches nécessitant une intervention humaine directe. De plus, les patients recherchent une solution rapide et accessible pour obtenir des informations et réserver des consultations sans devoir attendre de longues périodes au téléphone.\\
+
+\subsubsection{Les objectifs principaux du projet étaient les suivants :}
+\begin{itemize}
+  \item \textbf{Automatiser les réponses aux questions fréquentes: }Fournir une assistance instantanée aux patients pour leurs questions courantes sur les horaires, les services offerts, et les procédures.
+  \item \textbf{Faciliter la prise de rendez-vous: }Permettre aux patients de réserver des consultations de manière autonome via le chatbot.
+  \item \textbf{Gestion centralisée des rendez-vous: }Développer un tableau de bord pour que les administrateurs puissent gérer les rendez-vous, les médecins, et leurs spécialités.
+\end{itemize}
+
+\subsection{Introduction à un Chatbot}
+
+\hspace{16pt}Un chatbot, ou agent conversationnel, est un programme informatique conçu pour simuler une conversation humaine avec les utilisateurs, en particulier sur Internet. Les chatbots sont souvent utilisés dans les interfaces de messagerie, les sites web et les applications mobiles pour offrir une assistance instantanée et automatisée. Ils peuvent interagir avec les utilisateurs par le biais de texte ou de voix, répondant à des questions, fournissant des informations, et exécutant diverses tâches de manière autonome.
+
+\subsubsection{Fonctionnement des Chatbots}
+
+\hspace{16pt}Les chatbots fonctionnent grâce à une combinaison de règles préétablies et de technologies avancées telles que le traitement du langage naturel (NLP) et l'intelligence artificielle (IA). Les chatbots simples reposent sur des règles et des scripts prédéfinis, tandis que les chatbots plus sophistiqués utilisent le NLP pour comprendre le contexte et l'intention des utilisateurs. Ces derniers peuvent apprendre et s'améliorer avec le temps grâce à des techniques de machine learning.
+
+\subsubsection{Types de Chatbots}
+
+\hspace{16pt}Il existe deux principaux types de chatbots :
+\begin{itemize}
+  \item Chatbots basés sur des règles:
+  \begin{itemize}
+    \item Ils suivent des scripts prédéfinis et des arbres de décision.
+    \item Idéaux pour des interactions simples et des questions fréquemment posées.
+    \item Limités par la complexité des scénarios qu'ils peuvent gérer.
+  \end{itemize}
+  
+  \item Chatbots basés sur l'IA:
+  \begin{itemize}
+    \item Utilisent le NLP pour comprendre et interpréter les requêtes des utilisateurs.
+    \item Capables de gérer des interactions plus complexes et d'apprendre de nouvelles informations au fil du temps.
+    \item Plus flexibles et adaptatifs par rapport aux chatbots basés sur des règles.
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{Applications des Chatbots}
+\hspace{16pt}Les chatbots sont utilisés dans une variété de domaines pour améliorer l'expérience utilisateur et optimiser les processus opérationnels. Parmi les applications courantes, on trouve :
+
+\begin{itemize}
+  \item \textbf{Service client: }Fournir une assistance 24/7, répondre aux questions fréquentes, et traiter les réclamations.
+  \item \textbf{E-commerce: }Aider les clients à trouver des produits, passer des commandes, et suivre les livraisons.
+  \item \textbf{Santé: }Répondre aux questions médicales générales, prendre des rendez-vous, et rappeler aux patients de prendre leurs médicaments.
+  \item \textbf{Banque et finance: }Fournir des informations sur les comptes, aider à effectuer des transactions, et conseiller sur les produits financiers.
+\end{itemize}
+
+\subsubsection{Avantages des Chatbots}
+\hspace{16pt}Les chatbots présentent de nombreux avantages pour les organisations et les utilisateurs, notamment:
+
+\begin{itemize}
+  \item \textbf{Disponibilité: }Accessibles 24/7, ils offrent une assistance continue sans interruption.
+  \item \textbf{Efficacité: }Capables de traiter plusieurs demandes simultanément, réduisant ainsi les temps d'attente pour les utilisateurs.
+  \item \textbf{Coût: }Réduction des coûts opérationnels en automatisant les tâches répétitives et en libérant les ressources humaines pour des tâches plus complexes.
+  \item \textbf{Personnalisation: }Possibilité de personnaliser les interactions en fonction des préférences et des historiques des utilisateurs.
+\end{itemize}
+
+En somme, les chatbots représentent une avancée significative dans l'interaction homme-machine, offrant des solutions innovantes pour améliorer la communication et les services dans divers secteurs.
+
+
+
+
+\newpage
+
+\section*{Conclusion}
+
+\hspace{16pt}L'agence digitale FCPO, fondée en 2013, se spécialise en marketing digital avec des services variés comme la création de sites web, le SEO, et le développement d'applications mobiles. Travaillant à l'échelle nationale et internationale, FCPO se distingue par la qualité et la rapidité de ses services, garantissant des livraisons en moins de 24 heures.\\
+
+Pendant mon stage chez FCPO, j'ai participé à la création d'un chatbot pour une maison médicale. Ce projet visait à automatiser les réponses aux questions fréquentes des patients et à faciliter la prise de rendez-vous, allégeant ainsi la charge du personnel administratif. Réalisé en équipe, ce chatbot permet une assistance instantanée et autonome aux patients.\\
+
+Les chatbots, utilisant des technologies avancées comme le traitement du langage naturel (NLP) et l'intelligence artificielle (IA), offrent de nombreux avantages. Ils sont disponibles 24/7, améliorent l'efficacité des services, réduisent les coûts et personnalisent les interactions. Leur adoption représente une avancée significative dans l'amélioration des services dans divers secteurs.\\
+

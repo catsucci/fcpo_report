@@ -1,0 +1,179 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Welcome to Overleaf --- just edit your LaTeX on the left,
+% and we'll compile it for you on the right. If you open the
+% 'Share' menu, you can invite other users to edit at the same
+% time. See www.overleaf.com/learn for more info. Enjoy!
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,a4paper,oneside]{book}
+
+
+\input{Packages}
+
+
+%\makenoidxglossaries 
+
+%\newglossaryentry{latex}
+%{
+       % name=latex,
+        %description={Is a mark up language specially suited for scientific documents}
+%}
+
+
+
+%\selectlanguage{English}
+
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfauthor={Iliass EL AISSAOUI},  %put your name here
+    pdftitle={Rapport de stage iliass el aissaoui FCPO},  %PDF title
+    % pdfpagemode=FullScreen,
+    }
+
+
+
+\begin{document}
+
+
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+    \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+    \definecolor{codepurple}{rgb}{0.58,0,0.82}
+    \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+    
+    \lstdefinestyle{mystyle}{
+        backgroundcolor=\color{backcolour},   
+        keywordstyle=\color{magenta},
+        numberstyle=\tiny\color{codegreen},
+        stringstyle=\color{codepurple},
+        basicstyle=\ttfamily\footnotesize,
+        breakatwhitespace=false,         
+        breaklines=true,                 
+        captionpos=b,                    
+        keepspaces=true,                 
+        numbers=left,                    
+        numbersep=5pt,                  
+        showspaces=false,                
+        showstringspaces=false,
+        showtabs=false,                  
+        tabsize=2
+    }
+
+
+
+
+\include{Frontmatter/Page_de_garde} %FRENCH ONE
+
+%\include{Frontmatter/Page_de_Garde_EN} % ENGLISH
+
+\afterpage{\blankpage}  %page vide obligatoire
+
+\frontmatter
+
+
+% \input{Frontmatter/Dedication}
+
+
+\input{Frontmatter/Acknowledgements}
+
+
+\input{Frontmatter/Résumé}
+
+% \cleardoublepage
+%
+
+% \input{Frontmatter/Abstract}
+
+% \cleardoublepage
+%
+
+%\input{Frontmatter/Molakhas}
+
+% \cleardoublepage
+%
+
+
+
+
+% Redefine the list of figures name
+\renewcommand{\listfigurename}{Liste des figures}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{Liste des figures} 
+%figures are added automatically here
+
+% \listoftables
+% \addcontentsline{toc}{chapter}{List of Tables} 
+%tables are added automatically here
+
+
+% Redefine the list of listings name
+\renewcommand{\lstlistlistingname}{Liste des annonces}
+
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{Liste des annonces} 
+%Code snippets are added automatically here
+
+% Redefine the contents name
+\renewcommand{\contentsname}{Table des matières}
+
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table des matières}
+%contents are added automatically here
+
+\mainmatter
+
+%debut of chapters
+
+\input{Chapters/Chapter1}
+
+\input{Chapters/Chapter2}
+
+\input{Chapters/Chapter3}
+
+\input{Chapters/Chapter4}
+
+\input{Chapters/Chapter5}
+
+\input{Chapters/Chapter6}
+
+\input{Chapters/Conclusion}
+
+% Redefine the appendix name
+\renewcommand{\appendixname}{Annexe}
+
+\appendix
+
+
+\input{Endmatter/Glossary}
+
+\input{Endmatter/Acronyms}
+
+\input{Endmatter/ComplementaryCodes}
+
+% Redefine the bibliography name
+\renewcommand{\bibname}{Bibliographie}
+
+\begin{thebibliography}{99}
+\addcontentsline{toc}{chapter}{Bibliographie}
+
+\bibitem{ref1}
+Author name, Book name.ha
+
+\bibitem{ref2}
+\emph{Title 1},
+\href{https://www.overleaf.com/learn/latex/Bibliography_management_with_bibtex}{\textbf{Title 2}}
+
+ %the link is a documentation of the basic bibliography method (that    I'm using here) + bibTex which is more advanced, read it well and decide which one works best for you.
+
+
+
+\end{thebibliography}
+
+\end{document}
