@@ -61,26 +61,26 @@
 \contentsline {subsubsection}{\numberline {3.2.2.2}Gestion de l'API avec API Platform}{22}{subsubsection.3.2.2.2}%
 \contentsline {subsubsection}{\numberline {3.2.2.3}Sécurité Renforcée}{23}{subsubsection.3.2.2.3}%
 \contentsline {section}{\numberline {3.3}Diagrammes de conception utilisés}{23}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Réalisation des fonctionnalités principales}{25}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Les missions effectuées}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Le Chatbot}{26}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Configuration static}{26}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Configuration dynamique}{26}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}La base de donnéés}{26}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Création des entités}{26}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Configuration d'API}{26}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Le Dashboard}{26}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}La gestion des rendez-vous}{26}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}La gestion d'équipe medicale}{26}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}La gestion du Chatbot}{26}{subsection.4.3.3}%
-\contentsline {chapter}{\numberline {5}Les apports du stage}{28}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Les apports théoriques et intellectuels}{29}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Les compétences pratiques développées}{29}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Les apports en termes de monde de l'entreprise}{29}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Les difficultés du stage et les solutions apportées}{31}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Les difficultés rencontrées}{32}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Les solutions apportées à ces difficultés}{32}{section.6.2}%
-\contentsline {chapter}{Conclusion générale et perspectives}{34}{chapter*.9}%
-\contentsline {chapter}{\numberline {A}Glossaire}{35}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Acronymes}{36}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Some subject you want to expand on}{38}{appendix.C}%
-\contentsline {chapter}{Bibliographie}{39}{appendix*.10}%
+\contentsline {section}{\numberline {4.2}La base de donnéés}{27}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Création des entités}{27}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Configuration d'API}{28}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Le Dashboard}{29}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}La gestion des rendez-vous}{29}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}La gestion d'équipe medicale}{29}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}La gestion du Chatbot}{30}{subsection.4.3.3}%
+\contentsline {chapter}{\numberline {5}Les apports du stage}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Les apports théoriques et intellectuels}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Les compétences pratiques développées}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Les apports en termes de monde de l'entreprise}{34}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Les difficultés du stage et les solutions apportées}{36}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Les difficultés rencontrées}{37}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Les solutions apportées à ces difficultés}{37}{section.6.2}%
+\contentsline {chapter}{Conclusion générale et perspectives}{40}{chapter*.9}%
+\contentsline {chapter}{\numberline {A}Glossaire}{41}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Acronymes}{42}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Some subject you want to expand on}{44}{appendix.C}%
+\contentsline {chapter}{Bibliographie}{45}{appendix*.10}%

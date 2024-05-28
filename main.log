@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.4.26)  23 MAY 2024 08:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.24)  28 MAY 2024 08:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1370,15 +1370,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 Chapter 4.
 [25
 
-] [26]) [27] (./Chapters/Chapter5.tex
+] [26] [27]
+Overfull \hbox (4.83669pt too wide) in paragraph at lines 60--61
+\T1/lmr/m/n/12 robuste et évolutive, capable de gérer les différentes facettes du projet, y compris la gestion des utilisateurs,
+ []
+
+
+Overfull \hbox (5.72357pt too wide) in paragraph at lines 67--68
+\T1/lmr/m/n/12 CRUD pour chaque entité. Par défaut, les opérations GET, POST, PUT, DELETE sont disponibles,
+ []
+
+
+Overfull \hbox (23.67702pt too wide) in paragraph at lines 78--79
+ \T1/lmr/m/n/12 La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux administrateurs
+ []
+
+[28]
+Overfull \hbox (8.1414pt too wide) in paragraph at lines 87--88
+  \T1/lmr/m/n/12 La gestion de l'équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organisation
+ []
+
+[29] [30]) [31] (./Chapters/Chapter5.tex
 Chapter 5.
-[28
 
-] [29]) (./Chapters/Chapter6.tex [30]
+Overfull \hbox (3.66452pt too wide) in paragraph at lines 5--6
+\T1/lmr/m/n/12 médicale, j'ai acquis une expérience précieuse qui m'a enrichi tant sur le plan intellectuel que professionnel.
+ []
+
+[32
+
+]
+Overfull \hbox (5.18509pt too wide) in paragraph at lines 14--15
+\T1/lmr/m/n/12 MVC (Model-View-Controller) en travaillant avec Symfony et API Platform. J'ai appris à structurer
+ []
+
+
+Overfull \hbox (11.85854pt too wide) in paragraph at lines 20--21
+ \T1/lmr/m/n/12 Le stage m'a offert l'opportunité de développer et de perfectionner des compétences pratiques essentielles
+ []
+
+
+Overfull \hbox (2.11531pt too wide) in paragraph at lines 26--27
+\T1/lmr/m/n/12 en utilisant Arch Linux, Neovim avec une configuration personnalisée, et des outils comme Alacritty,
+ []
+
+
+Overfull \hbox (4.06001pt too wide) in paragraph at lines 31--32
+ \T1/lmr/m/n/12 Ce stage m'a également offert une précieuse perspective sur le fonctionnement et la culture d'entreprise.
+ []
+
+[33]
+Overfull \hbox (2.63681pt too wide) in paragraph at lines 36--37
+[]\T1/lmr/bx/n/12 Adaptation aux exigences des clients: \T1/lmr/m/n/12 J'ai acquis une meilleure compréhension de l'importance
+ []
+
+
+Overfull \hbox (2.64905pt too wide) in paragraph at lines 36--37
+\T1/lmr/m/n/12 J'ai appris à être flexible et réactif pour fournir des solutions qui satisfont les attentes des utilisateurs
+ []
+
+[34]) (./Chapters/Chapter6.tex [35]
 Chapter 6.
-[31
+[36
 
-] [32]) (./Chapters/Conclusion.tex [33]) (./Endmatter/Glossary.tex [34
+]
+Overfull \hbox (1.38254pt too wide) in paragraph at lines 14--15
+[]\T1/lmr/bx/n/12 Utilisation de nouvelles technologies: \T1/lmr/m/n/12 Découvrir et maîtriser des technologies comme Symfony,
+ []
+
+[37] [38]) (./Chapters/Conclusion.tex [39]) (./Endmatter/Glossary.tex [40
 
 ]
 Annexe A.
@@ -1397,19 +1457,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [35
+) [41
 
 ] (./Endmatter/Acronyms.tex
 Annexe B.
-[36
+[42
 
-]) (./Endmatter/ComplementaryCodes.tex [37]
+]) (./Endmatter/ComplementaryCodes.tex [43]
 Annexe C.
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [38
+) [44
 
-]) [39
+]) [45
 
 ] (./main.aux (./Frontmatter/Page_de_garde.aux))
  ***********
@@ -1421,21 +1481,21 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DFB4F0443E865ABB3F3D7F804F90A676;14874.
+(rerunfilecheck)             Checksum: D5604DCDC4063F38758100E16F54BBB6;14768.
  ) 
 Here is how much of TeX's memory you used:
- 38180 strings out of 476076
- 710757 string characters out of 5793775
+ 38186 strings out of 476076
+ 710799 string characters out of 5793775
  2041187 words of memory out of 5000000
  59385 multiletter control sequences out of 15000+600000
  638027 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  100i,12n,102p,2340b,1356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (49 pages, 594822 bytes).
+Output written on main.pdf (55 pages, 609289 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 735 compressed objects within 8 object streams
- 173 named destinations out of 1000 (max. 500000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 755 compressed objects within 8 object streams
+ 179 named destinations out of 1000 (max. 500000)
  708 words of extra memory for PDF output out of 10000 (max. 10000000)
 
