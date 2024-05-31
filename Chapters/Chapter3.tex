@@ -2,7 +2,7 @@
 \label{chap:Chapter 3 title}
 \section*{Introduction}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
+\hspace{16pt}Ce chapitre se concentre sur la conception et le développement de l'application. Nous commencerons par une description détaillée du flux de l'application, en expliquant comment elle guide les utilisateurs à travers ses différentes fonctionnalités. Ensuite, nous aborderons les choix technologiques majeurs, notamment l'utilisation de React pour l'interface utilisateur et Symfony pour le backend. Enfin, nous présenterons les diagrammes de conception utilisés pour visualiser et planifier l'architecture de l'application.
 
 \newpage
 
@@ -11,14 +11,47 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus ju
 
 \hspace{16pt}Le flux de l'application du chatbot pour la maison médicale se déroule en plusieurs étapes clés, organisées pour optimiser l'expérience utilisateur:
 
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.8]{Figures/cbf_overall.png}
+    \caption{Flux général du Chatbot}
+\end{figure}
+
+% [width=8cm]
 \subsection{FAQ}
 
 \hspace{16pt}Le chatbot propose à l'utilisateur des sujets prédéfinis sur lesquels il pourrait vouloir en savoir plus, et lors de la sélection d'un, le chatbot répond avec une réponse prédéfinie.
 
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.9]{Figures/cbf_faq.png}
+    \caption{Flux du processus: F.A.Q}
+\end{figure}
 
 \subsection{Prise de rendez-vous}
 
 \hspace{16pt}Le chatbot guide l'utilisateur avec un flux prédéfini dans ce cas, depuis la demande d'informations de base sur l'utilisateur jusqu'aux opérations facultatives telles que répondre à des questions spécialisées ou joindre des documents, avec une validation intégrée pour chaque petite information que nous lui demandons de fournir (si la validation est possible dans le premier lieu).
+
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.9]{Figures/cbf_rdv.png}
+    \caption{Flux du processus: Prise de rendez-vous}
+\end{figure}
+
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.9]{Figures/cbf_user.png}
+    \caption{Flux du processus: Prise de rendez-vous (Prendre les informations de l'utilisateur)}
+\end{figure}
+
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.9]{Figures/cbf_specialite.png}
+    \caption{Flux du processus: Prise de rendez-vous (Choisir une spécialité)}
+\end{figure}
 
 
 \section{Explication des choix technologiques}
@@ -36,7 +69,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus ju
 \end{itemize}
 
 \subsubsection{Composants Réutilisables et Modulaire}
-
+ 
 \begin{itemize}
   \item \textbf{Composants: }La structure basée sur les composants de React facilite la création de widgets et de modules réutilisables pour différentes parties du chatbot, comme les fenêtres de conversation, les formulaires de saisie, et les notifications.
   \item \textbf{Modularité: }Permet de construire l'application de manière modulaire, rendant le code plus maintenable et évolutif.
@@ -83,19 +116,30 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus ju
 
 \hspace{16pt}Dans le cadre du développement du chatbot pour la maison médicale, nous avons créé un Modèle Conceptuel de Données (MCD) pour concevoir la structure de la base de données. Le MCD ci-dessous illustre les principales entités et leurs relations dans notre système.\\
 
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.67]{Figures/MCDpre.png}
+    \caption{Diagramme de conception}
+    \label{entite} %Optional (If you want to reference the figure in later chapters)
+\end{figure}
+
 Ce MCD représente les principales entités de notre base de données pour le chatbot médical. Voici une brève explication de chaque entité :
 
 
 \begin{itemize}
-  \item \textbf{Utilisateur: }Stocke les informations sur les utilisateurs du chatbot, telles que leur identifiant, leur nom et leurs informations de contact.
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
-  \item \textbf{ }
+  \item \textbf{Utilisateur: }Stocke les informations sur les utilisateurs du chatbot, telles que leur identifiant, leur nom et leurs informations de contact. Les utilisateurs peuvent avoir des rôles spécifiques, comme patient ou admin.
+  \item \textbf{Medecin: }Stocke les informations sur les médecins, telles que leur identifiant, leur nom et leurs informations de contact.
+  \item \textbf{Specialite: }Décrit les différentes spécialités médicales disponibles, telles que la cardiologie, la dermatologie, etc.
+  \item \textbf{Question Specialite: }Contient des questions uniques pour chaque spécialité.
+  \item \textbf{Reponse: }Enregistre les réponses fournies par les patients aux questions relatives à une spécialité médicale. Inclut des références à l'utilisateur, à la question de spécialité et à la réponse fournie.
+  \item \textbf{Jour De Semaine: }Stocke les jours de la semaine pour aider à gérer les horaires et les disponibilités des médecins et des rendez-vous.
+  \item \textbf{Horaire: }Définit les plages horaires disponibles pour les rendez-vous et les sessions avec les médecins.
+  \item \textbf{Session: }Contient la séance de travail pour le centre médical.
+  \item \textbf{Rendez Vous: }Enregistre les rendez-vous programmés, y compris la date, l'heure, le patient et le médecin assigné.
+  \item \textbf{Faq: }Stocke les questions fréquentes et leurs réponses associées, utilisées par le chatbot pour fournir des informations instantanées.
+  \item \textbf{Block: }Décrit les blocs de contenu ou de dialogue utilisés dans le chatbot pour structurer les conversations.
+  \item \textbf{Block Option: }Contient les options disponibles pour chaque bloc de contenu, permettant au chatbot de guider les utilisateurs à travers différentes branches de la conversation.
 \end{itemize}
 
 
@@ -104,6 +148,6 @@ Ce MCD représente les principales entités de notre base de données pour le ch
 
 \section*{Conclusion}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
+\hspace{16pt}La conception et le développement de l'application décrits dans ce chapitre montrent comment les choix technologiques et les approches méthodologiques ont permis de créer une solution efficace et robuste. En utilisant des frameworks modernes et des pratiques de conception bien établies, nous avons pu développer une application qui répond aux besoins des utilisateurs de manière optimale.
 
 \pagebreak

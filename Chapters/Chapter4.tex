@@ -2,11 +2,7 @@
 \label{chap:Chapter 4 title}
 \section*{Introduction}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
-      
-
-
-
+\hspace{16pt}Ce chapitre est consacré à la description des missions effectuées durant le stage. Chaque mission représente une étape clé dans le développement du chatbot, depuis la configuration initiale jusqu'à la mise en ligne. Nous aborderons la configuration des environnements de développement, la création et la gestion des bases de données, et le développement des interfaces utilisateur. En détaillant ces missions, nous mettrons en lumière les compétences techniques mobilisées et les défis rencontrés. Ce chapitre vise à illustrer le processus de développement et les contributions spécifiques apportées à chaque étape du projet.
 
 \pagebreak
 
@@ -34,28 +30,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus ju
   \item \textbf{Données dynamiques: }chaque information contenue par le chatbot provient de l'API qui connecte notre chatbot à la base de données.
 \end{itemize}
 
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.45]{Figures/cbs_general.png}
+    \caption{Structure générale du Chatbot}
+\end{figure}
+
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.45]{Figures/cbs_render.png}
+    \caption{Structure générale du Chatbot (exemple de "render" element)}
+\end{figure}
+
 \section{La base de donnéés}
 
 
 \subsection{Création des entités}
 
-\hspace{16pt}La création des entités dans la base de données est une étape cruciale pour structurer les informations de manière efficace et logique. Voici les principales entités créées pour ce projet:
-
-\begin{itemize}
-  \item \textbf{Utilisateur: }Cette entité représente les utilisateurs du système, avec des rôles distincts (patient ou administrateur). Elle stocke des informations telles que le nom, l'adresse e-mail, le rôle et les identifiants de connexion.
-  \item \textbf{Medecin: }Cette entité contient les détails des médecins, y compris leur nom, leur spécialité, et leurs horaires de disponibilité. Chaque médecin est associé à une ou plusieurs spécialités.
-  \item \textbf{Specialite: }Cette entité représente les différentes spécialités médicales disponibles dans la maison médicale. Elle est liée à l'entité Médecin pour indiquer les compétences de chaque médecin.
-  \item \textbf{RendezVous: }Cette entité enregistre les rendez-vous programmés, y compris la date, l'heure, le patient le médecin assigné, etc. Elle est cruciale pour la gestion et la planification des consultations.
-  \item \textbf{QuestionsDeSpécialité: }Cette entité stocke des questions spécifiques liées à chaque spécialité médicale. Elle aide à fournir des réponses précises via le chatbot en fonction des spécialités.
-  \item \textbf{Reponse: }Cette entité regroupe les réponses données par les patients aux questions spécifiques liées aux spécialités médicales.
-  \item \textbf{JourDeSemaine: }Cette entité représente les jours de la semaine et est utilisée pour définir les horaires de disponibilité des médecins.
-  \item \textbf{Horaire: }Cette entité définit les heures de début et de fin des consultations pour chaque jour de la semaine. Elle est liée à l'entité Médecin pour indiquer les horaires de travail de chaque médecin.
-  \item \textbf{Session: }Cette entité représente les créneaux horaires spécifiques disponibles pour les rendez-vous. Elle est utilisée pour planifier les consultations et éviter les conflits de planning.
-  \item \textbf{FAQ: }Cette entité stocke les questions fréquentes et leurs réponses associées, utilisées par le chatbot pour fournir des informations instantanées aux utilisateurs.
-  \item \textbf{Block: }Cette entité représente les blocs de contenu dans le chatbot. Chaque bloc peut contenir des informations ou des options de réponse pour les utilisateurs.
-  \item \textbf{BlockOption: }Cette entité stocke les différentes options de réponse disponibles pour chaque bloc du chatbot. Elle permet de définir des chemins de conversation en fonction des choix des utilisateurs.
-  % \item \textbf{ }
-\end{itemize}
+\hspace{16pt}La création des entité (Figure \ref{entite}) dans la base de données est une étape cruciale pour structurer les informations de manière efficace et logique.
 
 En structurant ces entités de manière logique et efficace, nous avons pu créer une base de données robuste et évolutive, capable de gérer les différentes facettes du projet, y compris la gestion des utilisateurs, des médecins, des rendez-vous, et des interactions du chatbot.
 
@@ -71,7 +65,13 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
   \item \textbf{Groupes de Sérialisation: }Les groupes de sérialisation permettent de contrôler les données qui sont exposées via l'API. Cela est utile pour restreindre les champs visibles selon le contexte (lecture, écriture, etc.).
 \end{itemize}
 
-\section{Le Dashboard}
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.9]{Figures/api_entity.png}
+    \caption{Flux général de création d'une entité API}
+\end{figure}
+
+\section{Tableau de bord}
 
 \subsection{La gestion des rendez-vous}
 
@@ -100,7 +100,7 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 \hspace{16pt} La gestion du chatbot depuis le dashboard permet de maintenir et d’améliorer en continu l’interaction avec les patients. Voici les fonctionnalités principales de cette section:
 
 \begin{itemize}
-  \item \textbf{Configuration des Réponses: }Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies du chatbot pour les questions fréquentes. Cela inclut la mise à jour des informations sur les horaires, les services et les procédures.
+  \item \textbf{Configuration des F.A.Q: }Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies du chatbot pour les questions fréquentes. Cela inclut la mise à jour des informations sur les horaires, les services et les procédures.
   \item \textbf{Personnalisation: }Des options de personnalisation permettent de modifier le comportement du chatbot, incluant les messages de bienvenue.
 \end{itemize}
 
@@ -108,6 +108,6 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 
 \section*{Conclusion}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nec dapibus justo. Donec sagittis vulputate ante sed porttitor. Suspendisse sit amet nisl massa. Curabitur nec nisl condimentum, egestas ex vitae, dapibus enim. Etiam iaculis, erat faucibus pellentesque sagittis, nisi justo sollicitudin nibh, et condimentum augue massa non turpis. Proin commodo enim fermentum suscipit condimentum. Maecenas molestie, dui nec vestibulum rhoncus, arcu nisl faucibus neque, a ornare nisi massa ac eros. Aenean id velit sit amet lacus mattis varius. Donec fringilla massa sed nisi eleifend, a aliquet mi tempus. Nunc posuere euismod est, nec tristique augue lobortis non. Sed sodales sem ut metus tempus ullamcorper.
+\hspace{16pt}En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compétences techniques et organisationnelles. Chaque étape du projet a été l'occasion d'apprendre et de s'adapter, démontrant la complexité et la richesse du processus de développement. Les compétences acquises et les défis surmontés ont non seulement contribué à la réussite du projet, mais ont également enrichi notre expérience professionnelle de manière significative.
 
 \pagebreak

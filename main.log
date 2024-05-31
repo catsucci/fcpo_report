@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.24)  28 MAY 2024 08:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  31 MAY 2024 08:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -960,7 +960,14 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./main.aux (./Frontmatter/Page_de_garde.aux))
+) (./main.aux (./Frontmatter/Page_de_garde.aux)
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1112,154 +1119,155 @@ l.77 \frontmatter
 
 ] (./Frontmatter/Acknowledgements.tex) (./Frontmatter/RÃ©sumÃ©.tex [1
 
-])
-Underfull \hbox (badness 10000) in paragraph at lines 9--87
+] [2
 
+]
+Overfull \hbox (15.63237pt too wide) in paragraph at lines 16--17
+[]\T1/lmr/m/n/12 En conclusion, le stage chez FCPO a été une expérience riche et formatrice, consolidant des connaissances
  []
 
-[2
-
-] (./main.lof)
+) [3] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [3
+ [4
+
 
 ] (./main.lol)
 \tf@lol=\write6
 \openout6 = `main.lol'.
 
- [4
+ [5
 
-] (./main.toc [5
+] (./main.toc [6
 
-] [6] [7])
+] [7] [8])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [8] (./Chapters/Chapter1.tex
+ [9] (./Chapters/Chapter1.tex
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \newpage
+l.12 \newpage
               [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 56--58
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--61
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 
  []
 
 [3]
-<Logos/Logo_INPT.png, id=514, 1203.49625pt x 592.2125pt>
+<Logos/Logo_INPT.png, id=538, 1203.49625pt x 592.2125pt>
 File: Logos/Logo_INPT.png Graphic file (type png)
 <use Logos/Logo_INPT.png>
-Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 122.
+Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 118.
 (pdftex.def)             Requested size: 113.81102pt x 55.9987pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--147
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--153
+Underfull \hbox (badness 10000) in paragraph at lines 144--149
 
  []
 
 [4 <./Logos/Logo_INPT.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 233.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 229.
  (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1267,61 +1275,56 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 ) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 256.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 256.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 252.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 252.
  (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [6{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 File: Logos/fcpo.png Graphic file (type png)
 <use Logos/fcpo.png>
-Package pdftex.def Info: Logos/fcpo.png  used on input line 292.
+Package pdftex.def Info: Logos/fcpo.png  used on input line 288.
 (pdftex.def)             Requested size: 199.16928pt x 74.0951pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+Underfull \hbox (badness 10000) in paragraph at lines 317--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+Underfull \hbox (badness 10000) in paragraph at lines 317--322
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--326
+Underfull \hbox (badness 10000) in paragraph at lines 317--322
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--352
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 [8]
-Overfull \hbox (14.4938pt too wide) in paragraph at lines 357--358
+Overfull \hbox (14.4938pt too wide) in paragraph at lines 353--354
 []\T1/lmr/bx/n/12 Gestion centralisée des rendez-vous: \T1/lmr/m/n/12 Développer un tableau de bord pour que les administrateurs
  []
 
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 416--417
-
+[9] [10])
+Overfull \hbox (2.38675pt too wide) in paragraph at lines 416--135
+[]\T1/lmr/m/n/12 En conclusion, FCPO, par son engagement envers l'innovation et la qualité, ainsi que le développement
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
-
+Overfull \hbox (16.59174pt too wide) in paragraph at lines 416--135
+\T1/lmr/m/n/12 du chatbot pour une maison médicale, illustre parfaitement comment le marketing digital et l'automatisation
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
-
- []
-
-) (./Chapters/Chapter2.tex [11]
+(./Chapters/Chapter2.tex [11]
 Chapter 2.
 [12
 
@@ -1341,63 +1344,139 @@ Overfull \hbox (9.54698pt too wide) in paragraph at lines 71--72
  []
 
 [15] [16]
+<Figures/Git.png, id=619, 727.71875pt x 349.305pt>
+File: Figures/Git.png Graphic file (type png)
+<use Figures/Git.png>
+Package pdftex.def Info: Figures/Git.png  used on input line 105.
+(pdftex.def)             Requested size: 512.1496pt x 245.83899pt.
+<Figures/github.png, id=620, 801.99625pt x 361.35pt>
+File: Figures/github.png Graphic file (type png)
+<use Figures/github.png>
+Package pdftex.def Info: Figures/github.png  used on input line 123.
+(pdftex.def)             Requested size: 512.1496pt x 230.76697pt.
+ [17 <./Figures/Git.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 114.
+(Font)              <14.4> on input line 130.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 114.
+(Font)              <10> on input line 130.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 114.
+(Font)              <7> on input line 130.
 
-Overfull \hbox (12.3961pt too wide) in paragraph at lines 119--120
+Overfull \hbox (12.3961pt too wide) in paragraph at lines 135--136
 []\T1/lmr/bx/n/12 Typographie de haute qualité: \T1/lmr/m/n/12 L[]T[]X produit des documents avec une typographie professionnelle
  []
 
-[17] [18]) (./Chapters/Chapter3.tex [19]
+[18 <./Figures/github.png>] [19] [20]) (./Chapters/Chapter3.tex [21]
 Chapter 3.
-[20
+[22
 
 ]
-Overfull \hbox (3.09734pt too wide) in paragraph at lines 35--36
+<Figures/cbf_overall.png, id=649, 269.005pt x 297.11pt>
+File: Figures/cbf_overall.png Graphic file (type png)
+<use Figures/cbf_overall.png>
+Package pdftex.def Info: Figures/cbf_overall.png  used on input line 16.
+(pdftex.def)             Requested size: 215.20428pt x 237.68831pt.
+<Figures/cbf_faq.png, id=650, 310.15875pt x 215.80624pt>
+File: Figures/cbf_faq.png Graphic file (type png)
+<use Figures/cbf_faq.png>
+Package pdftex.def Info: Figures/cbf_faq.png  used on input line 27.
+(pdftex.def)             Requested size: 279.14029pt x 194.22382pt.
+ [23 <./Figures/cbf_overall.png> <./Figures/cbf_faq.png>]
+<Figures/cbf_rdv.png, id=657, 423.5825pt x 204.765pt>
+File: Figures/cbf_rdv.png Graphic file (type png)
+<use Figures/cbf_rdv.png>
+Package pdftex.def Info: Figures/cbf_rdv.png  used on input line 38.
+(pdftex.def)             Requested size: 381.22073pt x 184.28677pt.
+<Figures/cbf_user.png, id=658, 415.5525pt x 312.16624pt>
+File: Figures/cbf_user.png Graphic file (type png)
+<use Figures/cbf_user.png>
+Package pdftex.def Info: Figures/cbf_user.png  used on input line 45.
+(pdftex.def)             Requested size: 373.99379pt x 280.94702pt.
+<Figures/cbf_specialite.png, id=659, 407.5225pt x 215.80624pt>
+File: Figures/cbf_specialite.png Graphic file (type png)
+<use Figures/cbf_specialite.png>
+Package pdftex.def Info: Figures/cbf_specialite.png  used on input line 52.
+(pdftex.def)             Requested size: 366.76686pt x 194.22382pt.
+ [24 <./Figures/cbf_rdv.png> <./Figures/cbf_user.png>]
+Overfull \hbox (3.09734pt too wide) in paragraph at lines 68--69
 []\T1/lmr/bx/n/12 Rendu Dynamique: \T1/lmr/m/n/12 Les capacités de rendu dynamique de React permettent de gérer efficacement
  []
 
-[21] [22]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[25 <./Figures/cbf_specialite.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[23]) [24] (./Chapters/Chapter4.tex
-Chapter 4.
-[25
+[26]
+<Figures/MCDpre.png, id=676, 793.96625pt x 359.3425pt>
+File: Figures/MCDpre.png Graphic file (type png)
+<use Figures/MCDpre.png>
+Package pdftex.def Info: Figures/MCDpre.png  used on input line 122.
+(pdftex.def)             Requested size: 531.95462pt x 240.75821pt.
 
-] [26] [27]
-Overfull \hbox (4.83669pt too wide) in paragraph at lines 60--61
+Overfull \hbox (3.01787pt too wide) in paragraph at lines 122--123
+ [][] 
+ []
+
+
+Overfull \hbox (2.03557pt too wide) in paragraph at lines 136--137
+[]\T1/lmr/bx/n/12 Jour De Semaine: \T1/lmr/m/n/12 Stocke les jours de la semaine pour aider à gérer les horaires et les disponibilités
+ []
+
+[27 <./Figures/MCDpre.png>] [28]) [29] (./Chapters/Chapter4.tex
+Chapter 4.
+[30
+
+]
+<Figures/cbs_general.png, id=694, 643.40375pt x 670.505pt>
+File: Figures/cbs_general.png Graphic file (type png)
+<use Figures/cbs_general.png>
+Package pdftex.def Info: Figures/cbs_general.png  used on input line 36.
+(pdftex.def)             Requested size: 289.529pt x 301.72446pt.
+ [31]
+<Figures/cbs_render.png, id=699, 643.40375pt x 670.505pt>
+File: Figures/cbs_render.png Graphic file (type png)
+<use Figures/cbs_render.png>
+Package pdftex.def Info: Figures/cbs_render.png  used on input line 43.
+(pdftex.def)             Requested size: 289.529pt x 301.72446pt.
+ [32 <./Figures/cbs_general.png> <./Figures/cbs_render.png>]
+Overfull \hbox (4.83669pt too wide) in paragraph at lines 54--55
 \T1/lmr/m/n/12 robuste et évolutive, capable de gérer les différentes facettes du projet, y compris la gestion des utilisateurs,
  []
 
 
-Overfull \hbox (5.72357pt too wide) in paragraph at lines 67--68
+Overfull \hbox (5.72357pt too wide) in paragraph at lines 61--62
 \T1/lmr/m/n/12 CRUD pour chaque entité. Par défaut, les opérations GET, POST, PUT, DELETE sont disponibles,
  []
 
-
+<Figures/api_entity.png, id=708, 436.63126pt x 312.16624pt>
+File: Figures/api_entity.png Graphic file (type png)
+<use Figures/api_entity.png>
+Package pdftex.def Info: Figures/api_entity.png  used on input line 70.
+(pdftex.def)             Requested size: 392.9645pt x 280.94702pt.
+[33]
 Overfull \hbox (23.67702pt too wide) in paragraph at lines 78--79
  \T1/lmr/m/n/12 La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux administrateurs
  []
 
-[28]
+
 Overfull \hbox (8.1414pt too wide) in paragraph at lines 87--88
   \T1/lmr/m/n/12 La gestion de l'équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organisation
  []
 
-[29] [30]) [31] (./Chapters/Chapter5.tex
-Chapter 5.
-
-Overfull \hbox (3.66452pt too wide) in paragraph at lines 5--6
-\T1/lmr/m/n/12 médicale, j'ai acquis une expérience précieuse qui m'a enrichi tant sur le plan intellectuel que professionnel.
+[34 <./Figures/api_entity.png>] [35]
+Overfull \hbox (10.51944pt too wide) in paragraph at lines 103--104
+[]\T1/lmr/bx/n/12 Configuration des F.A.Q: \T1/lmr/m/n/12 Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies
  []
 
-[32
+[36]
+Overfull \hbox (8.59674pt too wide) in paragraph at lines 111--112
+ \T1/lmr/m/n/12 En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compétences
+ []
+
+) [37] (./Chapters/Chapter5.tex
+Chapter 5.
+[38
 
 ]
 Overfull \hbox (5.18509pt too wide) in paragraph at lines 14--15
@@ -1419,7 +1498,7 @@ Overfull \hbox (4.06001pt too wide) in paragraph at lines 31--32
  \T1/lmr/m/n/12 Ce stage m'a également offert une précieuse perspective sur le fonctionnement et la culture d'entreprise.
  []
 
-[33]
+[39]
 Overfull \hbox (2.63681pt too wide) in paragraph at lines 36--37
 []\T1/lmr/bx/n/12 Adaptation aux exigences des clients: \T1/lmr/m/n/12 J'ai acquis une meilleure compréhension de l'importance
  []
@@ -1429,16 +1508,21 @@ Overfull \hbox (2.64905pt too wide) in paragraph at lines 36--37
 \T1/lmr/m/n/12 J'ai appris à être flexible et réactif pour fournir des solutions qui satisfont les attentes des utilisateurs
  []
 
-[34]) (./Chapters/Chapter6.tex [35]
+[40]) (./Chapters/Chapter6.tex [41]
 Chapter 6.
-[36
+[42
 
 ]
 Overfull \hbox (1.38254pt too wide) in paragraph at lines 14--15
 []\T1/lmr/bx/n/12 Utilisation de nouvelles technologies: \T1/lmr/m/n/12 Découvrir et maîtriser des technologies comme Symfony,
  []
 
-[37] [38]) (./Chapters/Conclusion.tex [39]) (./Endmatter/Glossary.tex [40
+[43] [44])
+Overfull \hbox (5.29442pt too wide) in paragraph at lines 50--145
+\T1/lmr/m/n/12 renforçant notre aptitude à gérer des projets complexes et à collaborer efficacement dans un environnement
+ []
+
+(./Chapters/Conclusion.tex [45]) (./Endmatter/Glossary.tex [46
 
 ]
 Annexe A.
@@ -1457,19 +1541,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [41
+) [47
 
 ] (./Endmatter/Acronyms.tex
 Annexe B.
-[42
+[48
 
-]) (./Endmatter/ComplementaryCodes.tex [43]
+]) (./Endmatter/ComplementaryCodes.tex [49]
 Annexe C.
 (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [44
+) [50
 
-]) [45
+]) [51
 
 ] (./main.aux (./Frontmatter/Page_de_garde.aux))
  ***********
@@ -1480,22 +1564,25 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D5604DCDC4063F38758100E16F54BBB6;14768.
+(rerunfilecheck)             Checksum: 2BDA130E5063577E3C9245E1F72AB194;14811.
  ) 
 Here is how much of TeX's memory you used:
- 38186 strings out of 476076
- 710799 string characters out of 5793775
+ 38282 strings out of 476076
+ 713147 string characters out of 5793775
  2041187 words of memory out of 5000000
- 59385 multiletter control sequences out of 15000+600000
+ 59463 multiletter control sequences out of 15000+600000
  638027 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  100i,12n,102p,2340b,1356s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (55 pages, 609289 bytes).
+Output written on main.pdf (62 pages, 859135 bytes).
 PDF statistics:
- 857 PDF objects out of 1000 (max. 8388607)
- 755 compressed objects within 8 object streams
- 179 named destinations out of 1000 (max. 500000)
- 708 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 935 PDF objects out of 1000 (max. 8388607)
+ 803 compressed objects within 9 object streams
+ 197 named destinations out of 1000 (max. 500000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 
