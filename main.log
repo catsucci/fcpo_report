@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  31 MAY 2024 08:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  1 JUN 2024 22:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,10 +962,40 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 41.
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (./main.aux (./Frontmatter/Page_de_garde.aux)
 
-LaTeX Warning: Label `fig:my_label' multiply defined.
+LaTeX Warning: Label `' multiply defined.
 
 
-LaTeX Warning: Label `fig:my_label' multiply defined.
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
 
 )
 \openout1 = `main.aux'.
@@ -1057,7 +1087,7 @@ Package caption Info: End \AtBeginDocument code.
 \openout2 = `Frontmatter/Page_de_garde.aux'.
 
  (./Frontmatter/Page_de_garde.tex
-<Logos/test.png, id=348, 1179.40625pt x 271.0125pt>
+<Logos/test.png, id=308, 1179.40625pt x 271.0125pt>
 File: Logos/test.png Graphic file (type png)
 <use Logos/test.png>
 Package pdftex.def Info: Logos/test.png  used on input line 4.
@@ -1071,7 +1101,7 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 (Font)              using `T1/lmr/m/scsl' instead on input line 10.
 
-<Logos/fcpo.png, id=350, 250.9375pt x 93.34875pt>
+<Logos/fcpo.png, id=310, 250.9375pt x 93.34875pt>
 File: Logos/fcpo.png Graphic file (type png)
 <use Logos/fcpo.png>
 Package pdftex.def Info: Logos/fcpo.png  used on input line 18.
@@ -1121,31 +1151,20 @@ l.77 \frontmatter
 
 ] [2
 
-]
-Overfull \hbox (15.63237pt too wide) in paragraph at lines 16--17
-[]\T1/lmr/m/n/12 En conclusion, le stage chez FCPO a été une expérience riche et formatrice, consolidant des connaissances
- []
-
-) [3] (./main.lof)
+]) [3] (./main.lof)
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
  [4
 
 
-] (./main.lol)
-\tf@lol=\write6
-\openout6 = `main.lol'.
+] (./main.toc [5
 
- [5
+] [6])
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
-] (./main.toc [6
-
-] [7] [8])
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
- [9] (./Chapters/Chapter1.tex
+ [7] (./Chapters/Chapter1.tex
 Chapter 1.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
@@ -1156,177 +1175,56 @@ l.12 \newpage
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--36
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-[3]
-<Logos/Logo_INPT.png, id=538, 1203.49625pt x 592.2125pt>
-File: Logos/Logo_INPT.png Graphic file (type png)
-<use Logos/Logo_INPT.png>
-Package pdftex.def Info: Logos/Logo_INPT.png  used on input line 118.
-(pdftex.def)             Requested size: 113.81102pt x 55.9987pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--149
-
- []
-
-[4 <./Logos/Logo_INPT.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 229.
- (/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [5{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-) (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 252.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 252.
- (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 File: Logos/fcpo.png Graphic file (type png)
 <use Logos/fcpo.png>
-Package pdftex.def Info: Logos/fcpo.png  used on input line 288.
+Package pdftex.def Info: Logos/fcpo.png  used on input line 287.
 (pdftex.def)             Requested size: 199.16928pt x 74.0951pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 315--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 315--320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--322
+Underfull \hbox (badness 10000) in paragraph at lines 315--320
 
  []
 
-[7]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 324.
+(/usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
-
- []
-
-[8]
-Overfull \hbox (14.4938pt too wide) in paragraph at lines 353--354
+[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
+Overfull \hbox (14.4938pt too wide) in paragraph at lines 351--352
 []\T1/lmr/bx/n/12 Gestion centralisée des rendez-vous: \T1/lmr/m/n/12 Développer un tableau de bord pour que les administrateurs
  []
 
-[9] [10])
-Overfull \hbox (2.38675pt too wide) in paragraph at lines 416--135
+[4] [5])
+Overfull \hbox (2.38675pt too wide) in paragraph at lines 414--135
 []\T1/lmr/m/n/12 En conclusion, FCPO, par son engagement envers l'innovation et la qualité, ainsi que le développement
  []
 
 
-Overfull \hbox (16.59174pt too wide) in paragraph at lines 416--135
+Overfull \hbox (16.59174pt too wide) in paragraph at lines 414--135
 \T1/lmr/m/n/12 du chatbot pour une maison médicale, illustre parfaitement comment le marketing digital et l'automatisation
  []
 
-(./Chapters/Chapter2.tex [11]
+(./Chapters/Chapter2.tex [6]
 Chapter 2.
-[12
+[7
 
 ]
 Overfull \hbox (12.3417pt too wide) in paragraph at lines 18--19
@@ -1338,108 +1236,113 @@ Overfull \hbox (10.77972pt too wide) in paragraph at lines 22--23
 \T1/lmr/m/n/12 configuration du système, la résolution de problèmes techniques et l'apprentissage de nouvelles compétences
  []
 
-[13] [14]
+[8] [9]
 Overfull \hbox (9.54698pt too wide) in paragraph at lines 71--72
  \T1/lmr/m/n/12 Zsh a été utilisé comme shell interactif principal, enrichi par une configuration personnalisée comprenant
  []
 
-[15] [16]
-<Figures/Git.png, id=619, 727.71875pt x 349.305pt>
+[10] [11]
+<Figures/Git.png, id=503, 727.71875pt x 349.305pt>
 File: Figures/Git.png Graphic file (type png)
 <use Figures/Git.png>
 Package pdftex.def Info: Figures/Git.png  used on input line 105.
 (pdftex.def)             Requested size: 512.1496pt x 245.83899pt.
-<Figures/github.png, id=620, 801.99625pt x 361.35pt>
+<Figures/github.png, id=504, 801.99625pt x 361.35pt>
 File: Figures/github.png Graphic file (type png)
 <use Figures/github.png>
-Package pdftex.def Info: Figures/github.png  used on input line 123.
+Package pdftex.def Info: Figures/github.png  used on input line 122.
 (pdftex.def)             Requested size: 512.1496pt x 230.76697pt.
- [17 <./Figures/Git.png>]
+ [12 <./Figures/Git.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 130.
+(Font)              <14.4> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 130.
+(Font)              <10> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 130.
+(Font)              <7> on input line 128.
 
-Overfull \hbox (12.3961pt too wide) in paragraph at lines 135--136
+Overfull \hbox (12.3961pt too wide) in paragraph at lines 133--134
 []\T1/lmr/bx/n/12 Typographie de haute qualité: \T1/lmr/m/n/12 L[]T[]X produit des documents avec une typographie professionnelle
  []
 
-[18 <./Figures/github.png>] [19] [20]) (./Chapters/Chapter3.tex [21]
+[13 <./Figures/github.png>] [14] [15]) (./Chapters/Chapter3.tex [16]
 Chapter 3.
-[22
+[17
 
 ]
-<Figures/cbf_overall.png, id=649, 269.005pt x 297.11pt>
+<Figures/cbf_overall.png, id=533, 277.035pt x 305.14pt>
 File: Figures/cbf_overall.png Graphic file (type png)
 <use Figures/cbf_overall.png>
 Package pdftex.def Info: Figures/cbf_overall.png  used on input line 16.
-(pdftex.def)             Requested size: 215.20428pt x 237.68831pt.
-<Figures/cbf_faq.png, id=650, 310.15875pt x 215.80624pt>
+(pdftex.def)             Requested size: 221.6283pt x 244.11232pt.
+<Figures/cbf_faq.png, id=534, 310.15875pt x 215.80624pt>
 File: Figures/cbf_faq.png Graphic file (type png)
 <use Figures/cbf_faq.png>
 Package pdftex.def Info: Figures/cbf_faq.png  used on input line 27.
-(pdftex.def)             Requested size: 279.14029pt x 194.22382pt.
- [23 <./Figures/cbf_overall.png> <./Figures/cbf_faq.png>]
-<Figures/cbf_rdv.png, id=657, 423.5825pt x 204.765pt>
+(pdftex.def)             Requested size: 248.12733pt x 172.64522pt.
+ [18 <./Figures/cbf_overall.png> <./Figures/cbf_faq.png>]
+<Figures/cbf_rdv.png, id=541, 429.605pt x 270.00874pt>
 File: Figures/cbf_rdv.png Graphic file (type png)
 <use Figures/cbf_rdv.png>
 Package pdftex.def Info: Figures/cbf_rdv.png  used on input line 38.
-(pdftex.def)             Requested size: 381.22073pt x 184.28677pt.
-<Figures/cbf_user.png, id=658, 415.5525pt x 312.16624pt>
+(pdftex.def)             Requested size: 343.68446pt x 216.00728pt.
+<Figures/cbf_user.png, id=542, 415.5525pt x 312.16624pt>
 File: Figures/cbf_user.png Graphic file (type png)
 <use Figures/cbf_user.png>
 Package pdftex.def Info: Figures/cbf_user.png  used on input line 45.
-(pdftex.def)             Requested size: 373.99379pt x 280.94702pt.
-<Figures/cbf_specialite.png, id=659, 407.5225pt x 215.80624pt>
+(pdftex.def)             Requested size: 332.44244pt x 249.73334pt.
+<Figures/cbf_specialite.png, id=543, 407.5225pt x 215.80624pt>
 File: Figures/cbf_specialite.png Graphic file (type png)
 <use Figures/cbf_specialite.png>
 Package pdftex.def Info: Figures/cbf_specialite.png  used on input line 52.
 (pdftex.def)             Requested size: 366.76686pt x 194.22382pt.
- [24 <./Figures/cbf_rdv.png> <./Figures/cbf_user.png>]
+ [19 <./Figures/cbf_rdv.png> <./Figures/cbf_user.png>]
 Overfull \hbox (3.09734pt too wide) in paragraph at lines 68--69
 []\T1/lmr/bx/n/12 Rendu Dynamique: \T1/lmr/m/n/12 Les capacités de rendu dynamique de React permettent de gérer efficacement
  []
 
-[25 <./Figures/cbf_specialite.png>]
+[20 <./Figures/cbf_specialite.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 117--118
 
  []
 
-[26]
-<Figures/MCDpre.png, id=676, 793.96625pt x 359.3425pt>
-File: Figures/MCDpre.png Graphic file (type png)
-<use Figures/MCDpre.png>
-Package pdftex.def Info: Figures/MCDpre.png  used on input line 122.
-(pdftex.def)             Requested size: 531.95462pt x 240.75821pt.
+[21]
+<Figures/MCD.png, id=559, 793.96625pt x 446.66875pt>
+File: Figures/MCD.png Graphic file (type png)
+<use Figures/MCD.png>
+Package pdftex.def Info: Figures/MCD.png  used on input line 122.
+(pdftex.def)             Requested size: 531.95462pt x 299.2665pt.
 
 Overfull \hbox (3.01787pt too wide) in paragraph at lines 122--123
  [][] 
  []
 
-
+[22 <./Figures/MCD.png>]
 Overfull \hbox (2.03557pt too wide) in paragraph at lines 136--137
 []\T1/lmr/bx/n/12 Jour De Semaine: \T1/lmr/m/n/12 Stocke les jours de la semaine pour aider à gérer les horaires et les disponibilités
  []
 
-[27 <./Figures/MCDpre.png>] [28]) [29] (./Chapters/Chapter4.tex
+
+Overfull \hbox (11.20145pt too wide) in paragraph at lines 144--145
+[]\T1/lmr/bx/n/12 Dossier Medical: \T1/lmr/m/n/12 Gère les dossiers médicaux des utilisateurs. Cette entité permet le téléchargement
+ []
+
+[23]) [24] (./Chapters/Chapter4.tex
 Chapter 4.
-[30
+[25
 
 ]
-<Figures/cbs_general.png, id=694, 643.40375pt x 670.505pt>
+<Figures/cbs_general.png, id=579, 643.40375pt x 670.505pt>
 File: Figures/cbs_general.png Graphic file (type png)
 <use Figures/cbs_general.png>
 Package pdftex.def Info: Figures/cbs_general.png  used on input line 36.
 (pdftex.def)             Requested size: 289.529pt x 301.72446pt.
- [31]
-<Figures/cbs_render.png, id=699, 643.40375pt x 670.505pt>
+ [26]
+<Figures/cbs_render.png, id=584, 643.40375pt x 670.505pt>
 File: Figures/cbs_render.png Graphic file (type png)
 <use Figures/cbs_render.png>
 Package pdftex.def Info: Figures/cbs_render.png  used on input line 43.
 (pdftex.def)             Requested size: 289.529pt x 301.72446pt.
- [32 <./Figures/cbs_general.png> <./Figures/cbs_render.png>]
+ [27 <./Figures/cbs_general.png> <./Figures/cbs_render.png>]
 Overfull \hbox (4.83669pt too wide) in paragraph at lines 54--55
 \T1/lmr/m/n/12 robuste et évolutive, capable de gérer les différentes facettes du projet, y compris la gestion des utilisateurs,
  []
@@ -1449,12 +1352,12 @@ Overfull \hbox (5.72357pt too wide) in paragraph at lines 61--62
 \T1/lmr/m/n/12 CRUD pour chaque entité. Par défaut, les opérations GET, POST, PUT, DELETE sont disponibles,
  []
 
-<Figures/api_entity.png, id=708, 436.63126pt x 312.16624pt>
+<Figures/api_entity.png, id=592, 436.63126pt x 312.16624pt>
 File: Figures/api_entity.png Graphic file (type png)
 <use Figures/api_entity.png>
 Package pdftex.def Info: Figures/api_entity.png  used on input line 70.
 (pdftex.def)             Requested size: 392.9645pt x 280.94702pt.
-[33]
+[28]
 Overfull \hbox (23.67702pt too wide) in paragraph at lines 78--79
  \T1/lmr/m/n/12 La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux administrateurs
  []
@@ -1464,19 +1367,19 @@ Overfull \hbox (8.1414pt too wide) in paragraph at lines 87--88
   \T1/lmr/m/n/12 La gestion de l'équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organisation
  []
 
-[34 <./Figures/api_entity.png>] [35]
+[29 <./Figures/api_entity.png>] [30]
 Overfull \hbox (10.51944pt too wide) in paragraph at lines 103--104
 []\T1/lmr/bx/n/12 Configuration des F.A.Q: \T1/lmr/m/n/12 Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies
  []
 
-[36]
+[31]
 Overfull \hbox (8.59674pt too wide) in paragraph at lines 111--112
  \T1/lmr/m/n/12 En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compétences
  []
 
-) [37] (./Chapters/Chapter5.tex
+) [32] (./Chapters/Chapter5.tex
 Chapter 5.
-[38
+[33
 
 ]
 Overfull \hbox (5.18509pt too wide) in paragraph at lines 14--15
@@ -1498,7 +1401,7 @@ Overfull \hbox (4.06001pt too wide) in paragraph at lines 31--32
  \T1/lmr/m/n/12 Ce stage m'a également offert une précieuse perspective sur le fonctionnement et la culture d'entreprise.
  []
 
-[39]
+[34]
 Overfull \hbox (2.63681pt too wide) in paragraph at lines 36--37
 []\T1/lmr/bx/n/12 Adaptation aux exigences des clients: \T1/lmr/m/n/12 J'ai acquis une meilleure compréhension de l'importance
  []
@@ -1508,21 +1411,21 @@ Overfull \hbox (2.64905pt too wide) in paragraph at lines 36--37
 \T1/lmr/m/n/12 J'ai appris à être flexible et réactif pour fournir des solutions qui satisfont les attentes des utilisateurs
  []
 
-[40]) (./Chapters/Chapter6.tex [41]
+[35]) (./Chapters/Chapter6.tex [36]
 Chapter 6.
-[42
+[37
 
 ]
 Overfull \hbox (1.38254pt too wide) in paragraph at lines 14--15
 []\T1/lmr/bx/n/12 Utilisation de nouvelles technologies: \T1/lmr/m/n/12 Découvrir et maîtriser des technologies comme Symfony,
  []
 
-[43] [44])
+[38] [39])
 Overfull \hbox (5.29442pt too wide) in paragraph at lines 50--145
 \T1/lmr/m/n/12 renforçant notre aptitude à gérer des projets complexes et à collaborer efficacement dans un environnement
  []
 
-(./Chapters/Conclusion.tex [45]) (./Endmatter/Glossary.tex [46
+(./Chapters/Conclusion.tex [40]) (./Endmatter/Glossary.tex [41
 
 ]
 Annexe A.
@@ -1532,7 +1435,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
@@ -1541,21 +1449,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [47
 
-] (./Endmatter/Acronyms.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Overfull \hbox (5.26343pt too wide) in paragraph at lines 25--26
+[]\T1/lmr/bx/n/12 Eraser: \T1/lmr/m/n/12 Pourrait faire référence à un outil utilisé dans un contexte spécifique, non défini explicitement. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+[42
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+) [43] (./Endmatter/Acronyms.tex
 Annexe B.
-[48
+[44
 
-]) (./Endmatter/ComplementaryCodes.tex [49]
-Annexe C.
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2024/02/21 1.10 listings language file
-) [50
+]) [45
 
-]) [51
 
-] (./main.aux (./Frontmatter/Page_de_garde.aux))
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{cite.}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.199 \end{document}
+                    ] (./main.aux (./Frontmatter/Page_de_garde.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -1568,21 +1600,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2BDA130E5063577E3C9245E1F72AB194;14811.
+(rerunfilecheck)             Checksum: 1EBB901B46B1432D610E759D472F02C1;13455.
  ) 
 Here is how much of TeX's memory you used:
- 38282 strings out of 476076
- 713147 string characters out of 5793775
- 2041187 words of memory out of 5000000
- 59463 multiletter control sequences out of 15000+600000
- 638027 words of font info for 91 fonts, out of 8000000 for 9000
+ 37597 strings out of 476076
+ 705391 string characters out of 5793775
+ 1940187 words of memory out of 5000000
+ 58858 multiletter control sequences out of 15000+600000
+ 634088 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 100i,12n,102p,2340b,1356s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmtti10.pfb>
-Output written on main.pdf (62 pages, 859135 bytes).
+ 100i,12n,96p,2340b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on main.pdf (54 pages, 708204 bytes).
 PDF statistics:
- 935 PDF objects out of 1000 (max. 8388607)
- 803 compressed objects within 9 object streams
- 197 named destinations out of 1000 (max. 500000)
- 763 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 758 PDF objects out of 1000 (max. 8388607)
+ 652 compressed objects within 7 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 678 words of extra memory for PDF output out of 10000 (max. 10000000)
 
