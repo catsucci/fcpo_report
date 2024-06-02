@@ -55,13 +55,13 @@
 \contentsline {chapter}{\numberline {4}Les missions effectuées}{25}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Le Chatbot}{26}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Configuration static}{26}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Configuration dynamique}{26}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Configuration dynamique}{27}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}La base de donnéés}{28}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Création des entités}{28}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Configuration d'API}{28}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Tableau de bord}{29}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}La gestion des rendez-vous}{29}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}La gestion d'équipe medicale}{29}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.3}Tableau de bord}{30}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}La gestion des rendez-vous}{30}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}La gestion d'équipe medicale}{30}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}La gestion du Chatbot}{31}{subsection.4.3.3}%
 \contentsline {chapter}{\numberline {5}Les apports du stage}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Les apports théoriques et intellectuels}{34}{section.5.1}%
@@ -70,7 +70,7 @@
 \contentsline {chapter}{\numberline {6}Les difficultés du stage et les solutions apportées}{37}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Les difficultés rencontrées}{38}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Les solutions apportées à ces difficultés}{38}{section.6.2}%
-\contentsline {chapter}{Conclusion générale et perspectives}{41}{chapter*.17}%
+\contentsline {chapter}{Conclusion générale et perspectives}{41}{chapter*.19}%
 \contentsline {chapter}{\numberline {A}Glossaire}{42}{appendix.A}%
 \contentsline {chapter}{\numberline {B}Acronymes}{44}{appendix.B}%
-\contentsline {chapter}{Ressources}{45}{appendix*.18}%
+\contentsline {chapter}{Ressources}{45}{appendix*.20}%

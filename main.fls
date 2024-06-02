@@ -593,6 +593,11 @@ INPUT ./Chapters/Chapter4.tex
 INPUT ./Chapters/Chapter4.tex
 INPUT ./Chapters/Chapter4.tex
 INPUT Chapters/Chapter4.tex
+INPUT ./Figures/chatbot.png
+INPUT ./Figures/chatbot.png
+INPUT ./Figures/chatbot.png
+INPUT ./Figures/chatbot.png
+INPUT ./Figures/chatbot.png
 INPUT ./Figures/cbs_general.png
 INPUT ./Figures/cbs_general.png
 INPUT ./Figures/cbs_general.png
@@ -603,6 +608,11 @@ INPUT ./Figures/cbs_render.png
 INPUT ./Figures/cbs_render.png
 INPUT ./Figures/cbs_render.png
 INPUT ./Figures/cbs_render.png
+INPUT ./Figures/API.png
+INPUT ./Figures/API.png
+INPUT ./Figures/API.png
+INPUT ./Figures/API.png
+INPUT ./Figures/API.png
 INPUT ./Figures/api_entity.png
 INPUT ./Figures/api_entity.png
 INPUT ./Figures/api_entity.png

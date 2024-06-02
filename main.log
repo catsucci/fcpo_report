@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  1 JUN 2024 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.28)  2 JUN 2024 11:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1207,47 +1207,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (14.4938pt too wide) in paragraph at lines 351--352
-[]\T1/lmr/bx/n/12 Gestion centralisée des rendez-vous: \T1/lmr/m/n/12 Développer un tableau de bord pour que les administrateurs
- []
-
-[4] [5])
+[3{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}] [4] [5])
 Overfull \hbox (2.38675pt too wide) in paragraph at lines 414--135
 []\T1/lmr/m/n/12 En conclusion, FCPO, par son engagement envers l'innovation et la qualité, ainsi que le développement
- []
-
-
-Overfull \hbox (16.59174pt too wide) in paragraph at lines 414--135
-\T1/lmr/m/n/12 du chatbot pour une maison médicale, illustre parfaitement comment le marketing digital et l'automatisation
  []
 
 (./Chapters/Chapter2.tex [6]
 Chapter 2.
 [7
 
-]
-Overfull \hbox (12.3417pt too wide) in paragraph at lines 18--19
- \T1/lmr/m/n/12 Arch Linux suit la philosophie "Keep It Simple, Stupid" (KISS), offrant un contrôle total sur l'installation
- []
-
-
-Overfull \hbox (10.77972pt too wide) in paragraph at lines 22--23
-\T1/lmr/m/n/12 configuration du système, la résolution de problèmes techniques et l'apprentissage de nouvelles compétences
- []
-
-[8] [9]
-Overfull \hbox (9.54698pt too wide) in paragraph at lines 71--72
- \T1/lmr/m/n/12 Zsh a été utilisé comme shell interactif principal, enrichi par une configuration personnalisée comprenant
- []
-
-[10] [11]
-<Figures/Git.png, id=503, 727.71875pt x 349.305pt>
+] [8] [9] [10] [11]
+<Figures/Git.png, id=507, 727.71875pt x 349.305pt>
 File: Figures/Git.png Graphic file (type png)
 <use Figures/Git.png>
 Package pdftex.def Info: Figures/Git.png  used on input line 105.
 (pdftex.def)             Requested size: 512.1496pt x 245.83899pt.
-<Figures/github.png, id=504, 801.99625pt x 361.35pt>
+<Figures/github.png, id=508, 801.99625pt x 361.35pt>
 File: Figures/github.png Graphic file (type png)
 <use Figures/github.png>
 Package pdftex.def Info: Figures/github.png  used on input line 122.
@@ -1259,38 +1234,33 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 128.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 128.
-
-Overfull \hbox (12.3961pt too wide) in paragraph at lines 133--134
-[]\T1/lmr/bx/n/12 Typographie de haute qualité: \T1/lmr/m/n/12 L[]T[]X produit des documents avec une typographie professionnelle
- []
-
-[13 <./Figures/github.png>] [14] [15]) (./Chapters/Chapter3.tex [16]
+ [13 <./Figures/github.png>] [14] [15]) (./Chapters/Chapter3.tex [16]
 Chapter 3.
 [17
 
 ]
-<Figures/cbf_overall.png, id=533, 277.035pt x 305.14pt>
+<Figures/cbf_overall.png, id=537, 277.035pt x 305.14pt>
 File: Figures/cbf_overall.png Graphic file (type png)
 <use Figures/cbf_overall.png>
 Package pdftex.def Info: Figures/cbf_overall.png  used on input line 16.
 (pdftex.def)             Requested size: 221.6283pt x 244.11232pt.
-<Figures/cbf_faq.png, id=534, 310.15875pt x 215.80624pt>
+<Figures/cbf_faq.png, id=538, 310.15875pt x 215.80624pt>
 File: Figures/cbf_faq.png Graphic file (type png)
 <use Figures/cbf_faq.png>
 Package pdftex.def Info: Figures/cbf_faq.png  used on input line 27.
 (pdftex.def)             Requested size: 248.12733pt x 172.64522pt.
  [18 <./Figures/cbf_overall.png> <./Figures/cbf_faq.png>]
-<Figures/cbf_rdv.png, id=541, 429.605pt x 270.00874pt>
+<Figures/cbf_rdv.png, id=545, 429.605pt x 270.00874pt>
 File: Figures/cbf_rdv.png Graphic file (type png)
 <use Figures/cbf_rdv.png>
 Package pdftex.def Info: Figures/cbf_rdv.png  used on input line 38.
 (pdftex.def)             Requested size: 343.68446pt x 216.00728pt.
-<Figures/cbf_user.png, id=542, 415.5525pt x 312.16624pt>
+<Figures/cbf_user.png, id=546, 415.5525pt x 312.16624pt>
 File: Figures/cbf_user.png Graphic file (type png)
 <use Figures/cbf_user.png>
 Package pdftex.def Info: Figures/cbf_user.png  used on input line 45.
 (pdftex.def)             Requested size: 332.44244pt x 249.73334pt.
-<Figures/cbf_specialite.png, id=543, 407.5225pt x 215.80624pt>
+<Figures/cbf_specialite.png, id=547, 407.5225pt x 215.80624pt>
 File: Figures/cbf_specialite.png Graphic file (type png)
 <use Figures/cbf_specialite.png>
 Package pdftex.def Info: Figures/cbf_specialite.png  used on input line 52.
@@ -1306,7 +1276,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--118
  []
 
 [21]
-<Figures/MCD.png, id=559, 793.96625pt x 446.66875pt>
+<Figures/MCD.png, id=563, 793.96625pt x 446.66875pt>
 File: Figures/MCD.png Graphic file (type png)
 <use Figures/MCD.png>
 Package pdftex.def Info: Figures/MCD.png  used on input line 122.
@@ -1321,74 +1291,64 @@ Overfull \hbox (2.03557pt too wide) in paragraph at lines 136--137
 []\T1/lmr/bx/n/12 Jour De Semaine: \T1/lmr/m/n/12 Stocke les jours de la semaine pour aider à gérer les horaires et les disponibilités
  []
 
-
-Overfull \hbox (11.20145pt too wide) in paragraph at lines 144--145
-[]\T1/lmr/bx/n/12 Dossier Medical: \T1/lmr/m/n/12 Gère les dossiers médicaux des utilisateurs. Cette entité permet le téléchargement
- []
-
 [23]) [24] (./Chapters/Chapter4.tex
 Chapter 4.
 [25
 
 ]
-<Figures/cbs_general.png, id=579, 643.40375pt x 670.505pt>
+<Figures/chatbot.png, id=583, 1057.9525pt x 419.5675pt>
+File: Figures/chatbot.png Graphic file (type png)
+<use Figures/chatbot.png>
+Package pdftex.def Info: Figures/chatbot.png  used on input line 25.
+(pdftex.def)             Requested size: 528.97496pt x 209.78323pt.
+ [26 <./Figures/chatbot.png>]
+<Figures/cbs_general.png, id=589, 643.40375pt x 670.505pt>
 File: Figures/cbs_general.png Graphic file (type png)
 <use Figures/cbs_general.png>
-Package pdftex.def Info: Figures/cbs_general.png  used on input line 36.
-(pdftex.def)             Requested size: 289.529pt x 301.72446pt.
- [26]
-<Figures/cbs_render.png, id=584, 643.40375pt x 670.505pt>
+Package pdftex.def Info: Figures/cbs_general.png  used on input line 44.
+(pdftex.def)             Requested size: 321.70108pt x 335.25168pt.
+<Figures/cbs_render.png, id=590, 643.40375pt x 670.505pt>
 File: Figures/cbs_render.png Graphic file (type png)
 <use Figures/cbs_render.png>
-Package pdftex.def Info: Figures/cbs_render.png  used on input line 43.
-(pdftex.def)             Requested size: 289.529pt x 301.72446pt.
- [27 <./Figures/cbs_general.png> <./Figures/cbs_render.png>]
-Overfull \hbox (4.83669pt too wide) in paragraph at lines 54--55
+Package pdftex.def Info: Figures/cbs_render.png  used on input line 51.
+(pdftex.def)             Requested size: 321.70108pt x 335.25168pt.
+ [27 <./Figures/cbs_general.png>]
+Overfull \hbox (4.83669pt too wide) in paragraph at lines 62--63
 \T1/lmr/m/n/12 robuste et évolutive, capable de gérer les différentes facettes du projet, y compris la gestion des utilisateurs,
  []
 
 
-Overfull \hbox (5.72357pt too wide) in paragraph at lines 61--62
+Overfull \hbox (1.42458pt too wide) in paragraph at lines 66--67
+ \T1/lmr/m/n/12 Une API (Application Programming Interface) est un ensemble de règles permettant à des applications
+ []
+
+<Figures/API.png, id=597, 1130.2225pt x 464.73625pt>
+File: Figures/API.png Graphic file (type png)
+<use Figures/API.png>
+Package pdftex.def Info: Figures/API.png  used on input line 70.
+(pdftex.def)             Requested size: 553.81389pt x 227.72275pt.
+
+Overfull \hbox (24.87714pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+[28 <./Figures/cbs_render.png>]
+Overfull \hbox (5.72357pt too wide) in paragraph at lines 79--80
 \T1/lmr/m/n/12 CRUD pour chaque entité. Par défaut, les opérations GET, POST, PUT, DELETE sont disponibles,
  []
 
-<Figures/api_entity.png, id=592, 436.63126pt x 312.16624pt>
+<Figures/api_entity.png, id=604, 436.63126pt x 312.16624pt>
 File: Figures/api_entity.png Graphic file (type png)
 <use Figures/api_entity.png>
-Package pdftex.def Info: Figures/api_entity.png  used on input line 70.
+Package pdftex.def Info: Figures/api_entity.png  used on input line 88.
 (pdftex.def)             Requested size: 392.9645pt x 280.94702pt.
-[28]
-Overfull \hbox (23.67702pt too wide) in paragraph at lines 78--79
- \T1/lmr/m/n/12 La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux administrateurs
- []
-
-
-Overfull \hbox (8.1414pt too wide) in paragraph at lines 87--88
-  \T1/lmr/m/n/12 La gestion de l'équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organisation
- []
-
-[29 <./Figures/api_entity.png>] [30]
-Overfull \hbox (10.51944pt too wide) in paragraph at lines 103--104
-[]\T1/lmr/bx/n/12 Configuration des F.A.Q: \T1/lmr/m/n/12 Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies
- []
-
-[31]
-Overfull \hbox (8.59674pt too wide) in paragraph at lines 111--112
- \T1/lmr/m/n/12 En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compétences
- []
-
-) [32] (./Chapters/Chapter5.tex
+[29 <./Figures/API.png>] [30 <./Figures/api_entity.png>] [31]) [32] (./Chapters/Chapter5.tex
 Chapter 5.
 [33
 
 ]
 Overfull \hbox (5.18509pt too wide) in paragraph at lines 14--15
 \T1/lmr/m/n/12 MVC (Model-View-Controller) en travaillant avec Symfony et API Platform. J'ai appris à structurer
- []
-
-
-Overfull \hbox (11.85854pt too wide) in paragraph at lines 20--21
- \T1/lmr/m/n/12 Le stage m'a offert l'opportunité de développer et de perfectionner des compétences pratiques essentielles
  []
 
 
@@ -1600,21 +1560,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 1EBB901B46B1432D610E759D472F02C1;13455.
+(rerunfilecheck)             Checksum: FDB4397B55E048B9B371CDA8CC4A9DEA;13455.
  ) 
 Here is how much of TeX's memory you used:
- 37597 strings out of 476076
- 705391 string characters out of 5793775
- 1940187 words of memory out of 5000000
- 58858 multiletter control sequences out of 15000+600000
+ 37613 strings out of 476076
+ 705759 string characters out of 5793775
+ 1941187 words of memory out of 5000000
+ 58872 multiletter control sequences out of 15000+600000
  634088 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 100i,12n,96p,2340b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,11n,96p,2340b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on main.pdf (54 pages, 708204 bytes).
+Output written on main.pdf (54 pages, 961463 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 652 compressed objects within 7 object streams
- 141 named destinations out of 1000 (max. 500000)
- 678 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 766 PDF objects out of 1000 (max. 8388607)
+ 656 compressed objects within 7 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 688 words of extra memory for PDF output out of 10000 (max. 10000000)
 

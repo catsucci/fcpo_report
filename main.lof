@@ -12,9 +12,11 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Flux du processus: Prise de rendez-vous (Choisir une spécialité)}}{20}{figure.caption.12}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Diagramme de conception}}{22}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure générale du Chatbot}}{27}{figure.caption.14}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure générale du Chatbot (exemple de "render" element)}}{27}{figure.caption.15}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Flux général de création d'une entité API}}{29}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure générale du configuration Chatbot}}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure générale du Chatbot}}{27}{figure.caption.15}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure générale du Chatbot (exemple de "render" element)}}{28}{figure.caption.16}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Foncionnement d'un API}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Flux général de création d'une entité API}}{30}{figure.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

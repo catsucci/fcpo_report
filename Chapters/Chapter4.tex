@@ -16,7 +16,15 @@
   \item \textbf{Réponses prédéfinies: }Le chatbot est programmé avec une série de réponses prédéfinies pour les questions fréquentes.
   \item \textbf{Flow du prise de rendez-vous: }Définir un flux statique qui accompagnera l'utilisateur dans sa prise de rendez-vous.
   \item \textbf{Interface utilisateur: }La présentation et les options initiales du chatbot, telles que les boutons de démarrage et les messages de bienvenue, sont configurées statiquement.
+  \item \textbf{Connexion: }Configurer un processus statique permettant aux utilisateurs de se connecter avant d'utiliser certaines fonctionnalités du chatbot.
+  \item \textbf{Inscription: }Mettre en place un processus d'inscription statique pour les nouveaux utilisateurs, leur permettant de créer un compte avant d'accéder aux fonctionnalités du chatbot.
 \end{itemize}
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.5]{Figures/chatbot.png}
+    \caption{Structure générale du configuration Chatbot}
+\end{figure}
 
 \subsection{Configuration dynamique}
 
@@ -33,14 +41,14 @@
 
 \begin{figure}[H] 
     \centering
-    \includegraphics[scale=0.45]{Figures/cbs_general.png}
+    \includegraphics[scale=0.5]{Figures/cbs_general.png}
     \caption{Structure générale du Chatbot}
 \end{figure}
 
 
 \begin{figure}[H] 
     \centering
-    \includegraphics[scale=0.45]{Figures/cbs_render.png}
+    \includegraphics[scale=0.5]{Figures/cbs_render.png}
     \caption{Structure générale du Chatbot (exemple de "render" element)}
 \end{figure}
 
@@ -55,7 +63,17 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 
 \subsection{Configuration d'API}
 
-\hspace{16pt}La configuration de l'API est une étape essentielle pour permettre une communication efficace entre le frontend et le backend de notre application. Pour ce projet, nous avons utilisé Symfony avec API Platform pour créer une API RESTful. API Platform offre une grande flexibilité et permet de configurer facilement les opérations CRUD (Create, Read, Update, Delete), la validation des champs, la gestion des relations, les filtres et les groupes de sérialisation. Voici un aperçu de ces fonctionnalités:
+\hspace{16pt}Une API (Application Programming Interface) est un ensemble de règles permettant à des applications de communiquer entre elles. Elle utilise des protocoles comme HTTP/HTTPS pour échanger des données et donne accès à certaines fonctionnalités ou informations d'un service.
+
+\begin{figure}[H] 
+    \centering
+    \includegraphics[scale=0.49]{Figures/API.png}
+    \caption{Foncionnement d'un API}
+\end{figure}
+
+La configuration de l'API est une étape essentielle pour permettre une communication efficace entre le frontend et le backend de notre application.
+
+Pour ce projet, nous avons utilisé Symfony avec API Platform pour créer une API RESTful. API Platform offre une grande flexibilité et permet de configurer facilement les opérations CRUD (Create, Read, Update, Delete), la validation des champs, la gestion des relations, les filtres et les groupes de sérialisation. Voici un aperçu de ces fonctionnalités:
 
 \begin{itemize}
   \item \textbf{Opérations CRUD Configurables: }API Platform facilite la configuration des opérations CRUD pour chaque entité. Par défaut, les opérations GET, POST, PUT, DELETE sont disponibles, mais elles peuvent être personnalisées ou restreintes selon les besoins.
@@ -75,7 +93,7 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 
 \subsection{La gestion des rendez-vous}
 
-\hspace {16pt}La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux administrateurs et aux médecins de suivre et de gérer efficacement les consultations des patients. Voici les principales caractéristiques de cette fonctionnalité:
+\hspace {16pt}La gestion des rendez-vous est une fonctionnalité essentielle du dashboard, permettant aux admini-strateurs et aux médecins de suivre et de gérer efficacement les consultations des patients. Voici les principales caractéristiques de cette fonctionnalité:
 
 \begin{itemize}
   \item \textbf{Vue Calendrier: }Une interface calendrier permet de visualiser les rendez-vous par jour, semaine ou mois. Les rendez-vous sont colorés en fonction de leur statut (confirmé, en attente, annulé).
@@ -84,7 +102,7 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 
 \subsection{La gestion d'équipe medicale}
 
-\hspace{16pt} La gestion de l’équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organisation optimale des ressources humaines et des services offerts. Voici comment cette fonctionnalité est mise en œuvre:
+\hspace{16pt} La gestion de l’équipe médicale est une autre fonctionnalité clé du dashboard, assurant une organi-sation optimale des ressources humaines et des services offerts. Voici comment cette fonctionnalité est mise en œuvre:
 
 \begin{itemize}
   \item \textbf{Liste des Médecins: }Une liste détaillée des médecins avec leurs spécialités, disponibilités et coordonnées. Les administrateurs peuvent facilement ajouter, modifier ou désactiver des médecins.
@@ -93,14 +111,12 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
   \item \textbf{Rapports et Statistiques: }Des rapports détaillés sur les activités des médecins, incluant le nombre de consultations, le taux de satisfaction des patients, et les performances par spécialité.
 \end{itemize}
 
-\break
-
 \subsection{La gestion du Chatbot}
 
 \hspace{16pt} La gestion du chatbot depuis le dashboard permet de maintenir et d’améliorer en continu l’interaction avec les patients. Voici les fonctionnalités principales de cette section:
 
 \begin{itemize}
-  \item \textbf{Configuration des F.A.Q: }Les administrateurs peuvent ajouter ou modifier les réponses prédéfinies du chatbot pour les questions fréquentes. Cela inclut la mise à jour des informations sur les horaires, les services et les procédures.
+  \item \textbf{Configuration des F.A.Q: }Les administrateurs peuvent ajouter ou modifier les réponses pré-définies du chatbot pour les questions fréquentes. Cela inclut la mise à jour des informations sur les horaires, les services et les procédures.
   \item \textbf{Personnalisation: }Des options de personnalisation permettent de modifier le comportement du chatbot, incluant les messages de bienvenue.
 \end{itemize}
 
@@ -108,6 +124,6 @@ En structurant ces entités de manière logique et efficace, nous avons pu crée
 
 \section*{Conclusion}
 
-\hspace{16pt}En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compétences techniques et organisationnelles. Chaque étape du projet a été l'occasion d'apprendre et de s'adapter, démontrant la complexité et la richesse du processus de développement. Les compétences acquises et les défis surmontés ont non seulement contribué à la réussite du projet, mais ont également enrichi notre expérience professionnelle de manière significative.
+\hspace{16pt}En conclusion, les missions effectuées ont permis de mettre en pratique une large gamme de compé-tences techniques et organisationnelles. Chaque étape du projet a été l'occasion d'apprendre et de s'adapter, démontrant la complexité et la richesse du processus de développement. Les compétences acquises et les défis surmontés ont non seulement contribué à la réussite du projet, mais ont également enrichi notre expérience professionnelle de manière significative.
 
 \pagebreak
